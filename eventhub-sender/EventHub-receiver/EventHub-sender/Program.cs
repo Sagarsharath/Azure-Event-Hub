@@ -8,6 +8,7 @@ namespace EventHub_sender
 {
     class Program
     {
+		// This key has to be moved to config.
         private const string connectionString = "Endpoint=sb://event-hub-new.servicebus.windows.net/;SharedAccessKeyName=SAP;SharedAccessKey=hdt0i3dJZ0JxPW40+ht9JV+7O5NqeYNGX6aWGzndbFo=";
         private const string eventHubName = "hub-one";
 
