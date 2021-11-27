@@ -10,6 +10,7 @@ namespace EventHub_receiver
 {
     class Program
     {
+		// keys have to be in configuration
         private const string ehubNamespaceConnectionString = "Endpoint=sb://event-hub-new.servicebus.windows.net/;SharedAccessKeyName=SAP;SharedAccessKey=hdt0i3dJZ0JxPW40+ht9JV+7O5NqeYNGX6aWGzndbFo=";
         private const string eventHubName = "hub-one";
         private const string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=storageccsharath;AccountKey=nCvk4LRtKwbRMBIf2xEJiWRqd5C3gXNeSdrRQ2PsurFXReXHGzV/Qmbxq+opsr7jpwkl2I4m5piTxOtELtCunQ==";
